@@ -59,9 +59,9 @@ int main()
 {
 	//checking some cases
 	if (isValid(""))
-		std::cout << "null string: true" << std::endl;
+		std::cout << "empty string: true" << std::endl;
 	else
-		std::cout << "null string: false" << std::endl;
+		std::cout << "empty string: false" << std::endl;
 	
 	if (isValid("()[]{}"))
 		std::cout << "()[]{}: true" << std::endl;
